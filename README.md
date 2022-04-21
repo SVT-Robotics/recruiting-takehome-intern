@@ -1,4 +1,4 @@
-# SVT Robotics - .NET Core Take Home Recruiting Assessment
+# SVT Robotics - JavaScript Take Home Recruiting Assessment
 
 One of SVT's microservices calculates which robot should transport a pallet from point A to point B based on which robot is the closest and has the most battery left if there are multiple in the proximity of the load's location. You'll use a provided API endpoint to create a simplified robot routing API.
 
@@ -32,7 +32,7 @@ It should respond with a payload of _(note: this is just an example, your result
 
 ### Requirements
 
-1. .NET Core API with a POST endpoint that accepts and returns data per the above task description
+1. JavaScript API with a POST endpoint that accepts and returns data per the above task description
    i. POST endpoint **must** be **`https://localhost:5001/api/robots/closest/`** or **`http://localhost:5000/api/robots/closest/`**
 2. API can be run locally and tested using Postman or other similar tools
 3. Description of what features, functionality, etc. you would add next and how you would implement them - you shouldn't spend more than an hour on this project, so we want to know what you'd do next (and how you'd do it) if you had more time
@@ -41,7 +41,7 @@ It should respond with a payload of _(note: this is just an example, your result
 
 Deliverables Checklist
 
-1. API written in .NET Core
+1. API written in JavaScript
 2. API accepts POST and returns data per above requirements
 3. Repo README has instructions for running and testing the API
 4. Repo README has information about what you'd do next, per above requirements
